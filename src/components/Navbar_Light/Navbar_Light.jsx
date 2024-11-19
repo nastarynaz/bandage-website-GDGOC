@@ -24,13 +24,12 @@ export const Navbar_Light = () => {
             />
           </button>
         </div>
-
         <div className={styles.menu}>
-          <div className={styles.mainMenu}>
-            <ul
-              className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-              onClick={() => setMenuOpen(false)}
-            >
+          <ul
+            className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+            onClick={() => setMenuOpen(false)}
+          >
+            <div className={styles.mainMenu}>
               <li>
                 <a href="#Home" className={styles.menuLink}>
                   Home
@@ -61,13 +60,8 @@ export const Navbar_Light = () => {
                   Pages
                 </a>
               </li>
-            </ul>
-          </div>
-          <div className={styles.userMenu}>
-            <ul
-              className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-              onClick={() => setMenuOpen(false)}
-            >
+            </div>
+            <div className={styles.userMenu}>
               <li>
                 <a href="#login" className={styles.loginLink}>
                   <img
@@ -75,7 +69,9 @@ export const Navbar_Light = () => {
                     alt="Login icon"
                     className={styles.icon}
                   />
-                  <span>Login / Register</span>
+                  <span>
+                    <p>Login / Register</p>
+                  </span>
                 </a>
               </li>
               <li>
@@ -107,8 +103,8 @@ export const Navbar_Light = () => {
                   <span className={styles.badge}>1</span>
                 </a>
               </li>
-            </ul>
-          </div>
+            </div>
+          </ul>
         </div>
       </div>
     </nav>
