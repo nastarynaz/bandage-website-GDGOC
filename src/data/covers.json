@@ -1,0 +1,20 @@
+[
+  {
+    "product": "Chair",
+    "star": "4",
+    "reviews": "10 Reviews",
+    "price": "1,139.33",
+    "avaibility": "In Stock",
+    "description": "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+    "imageSrc": "hero/chair.jpg"
+  },
+  {
+    "product": "Couch",
+    "star": "4",
+    "reviews": "12 Reviews",
+    "price": "1,139.33",
+    "avaibility": "In Stock",
+    "description": "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+    "imageSrc": "hero/couch.jpg"
+  }
+]

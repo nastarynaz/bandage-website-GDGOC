@@ -1,0 +1,151 @@
+.navbar {
+  background-color: white;
+}
+
+.navContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 1042px;
+  padding: 0 33px;
+  height: 58px;
+  margin: 0 auto;
+  padding: 10px 33px;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.logoMenuWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuBtn {
+  display: none;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuItems {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  align-items: center;
+}
+
+.mainMenu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.userMenu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color-title);
+}
+
+.title {
+  text-decoration: none;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #737373;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.menuLink:hover {
+  color: #252b42;
+}
+
+.loginLink {
+  text-decoration: none;
+  color: #23a6f0;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.iconLink {
+  color: #23a6f0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+@media screen and (max-width: 940px) {
+  .navContainer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: column;
+  }
+  .logoMenuWrapper {
+    width: 100%;
+    max-width: 768px;
+  }
+
+  .menuBtn {
+    display: block;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 8px;
+  }
+
+  .menu {
+    display: block;
+    width: 100%;
+  }
+
+  .menuItems {
+    display: none;
+    flex-direction: column;
+    align-items: center; /* Mengubah dari flex-start menjadi center */
+    gap: 30px; /* Memperbesar gap untuk spacing yang lebih baik */
+    background-color: white;
+    width: 100%;
+    padding: 40px 0; /* Menambah padding vertical */
+    text-align: center;
+  }
+
+  .menuItems.menuOpen {
+    display: flex;
+  }
+
+  .mainMenu,
+  .userMenu {
+    flex-direction: column;
+    align-items: center; /* Mengubah dari flex-start menjadi center */
+    width: 100%;
+    gap: 30px; /* Memperbesar gap untuk spacing yang lebih baik */
+  }
+  .menuLink,
+  .loginLink,
+  .iconLink {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "product": "Chair",
+    "imageSrc": "hero/chair-preview.jpg"
+  },
+  {
+    "product": "Couch",
+    "imageSrc": "hero/couch-preview.jpg"
+  }
+]

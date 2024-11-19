@@ -1,0 +1,58 @@
+[
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 1.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 2.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 3.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 4.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 5.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 6.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 1.png"
+  },
+  {
+    "product": "Graphic Design",
+    "description": "English Department",
+    "oldPrice": "$16.48",
+    "newPrice": "$6.48",
+    "imageSrc": "products/image 2.png"
+  }
+]

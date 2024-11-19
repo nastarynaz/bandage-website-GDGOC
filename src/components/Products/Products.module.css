@@ -1,0 +1,40 @@
+@import "../../vars.css";
+
+.container {
+  width: 100%;
+  max-width: 1124px;
+  padding: 48px 33px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 700;
+  color: #252b42;
+  width: 100%;
+}
+hr {
+  color: #ececec;
+  border: 1px;
+  border-style: solid;
+}
+.products {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+@media (max-width: 730px) {
+  .title,
+  .title h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+}
