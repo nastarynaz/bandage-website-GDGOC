@@ -9,8 +9,7 @@
   margin: 0 auto;
   width: 100%;
   max-width: 1042px;
-  padding: 0 33px;
-  height: 58px;
+  padding: 25px 33px;
 }
 
 .logoMenuWrapper {
@@ -24,7 +23,7 @@
 }
 
 .menu {
-  width: auto;
+  width: 100%;
   display: flex;
   justify-content: end;
 }
@@ -39,16 +38,13 @@
 .mainMenu {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 15px;
-  margin: 0 50px;
 }
 
 .userMenu {
   display: flex;
   align-items: center;
   gap: 15px;
-  flex-shrink: 0;
 }
 
 .title h3 {
@@ -59,7 +55,6 @@
 
 .title {
   text-decoration: none;
-  flex-shrink: 0;
 }
 
 .menuLink {
@@ -97,7 +92,7 @@
   width: 16px;
   height: 16px;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 768px) {
   .navContainer {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -114,7 +109,7 @@
 
   .menu {
     display: block;
-    width: auto;
+    width: 100%;
   }
 
   .logoMenuWrapper {
@@ -124,11 +119,11 @@
   .menuItems {
     display: none;
     flex-direction: column;
-    align-items: center; /* Mengubah dari flex-start menjadi center */
-    gap: 30px; /* Memperbesar gap untuk spacing yang lebih baik */
+    align-items: center;
+    gap: 30px;
     background-color: white;
     width: 100%;
-    padding: 40px 0; /* Menambah padding vertical */
+    padding: 40px 0;
     text-align: center;
   }
 
@@ -139,16 +134,11 @@
   .mainMenu,
   .userMenu {
     flex-direction: column;
-    align-items: center; /* Mengubah dari flex-start menjadi center */
+    align-items: center;
     width: 100%;
-    gap: 30px; /* Memperbesar gap untuk spacing yang lebih baik */
+    gap: 30px;
   }
 
-  .mainMenu {
-    margin-bottom: 30px; /* Memperbesar margin bottom */
-  }
-
-  /* Optional: membuat font lebih besar di mobile */
   .menuLink,
   .loginLink,
   .iconLink {
